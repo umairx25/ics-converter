@@ -1,5 +1,4 @@
 ics==0.7.2
-protobuf==6.32.0
 pymupdf==1.26.4
 python-dotenv==1.1.1
 python_dateutil==2.9.0.post0
