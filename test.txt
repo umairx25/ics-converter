@@ -1,0 +1,93 @@
+Json found at: index 3
+
+{
+  "events": [
+    {
+      "name": "CS101 Lecture",
+      "begin": "2025-09-08T10:00",
+      "end": "2025-09-08T11:20",
+      "uid": "cs101-lecture-001",
+      "description": "Professor Smith, Section A",
+      "location": "ENG 201",
+      "status": "CONFIRMED",
+      "recurrence": {
+        "type": "WEEKLY",
+        "days": [
+          "MO",
+          "WE"
+        ],
+        "interval": 1,
+        "until": "2025-12-15"
+      },
+      "exceptions": {
+        "exdates": [
+          "2025-10-13"
+        ]
+      }
+    },
+    {
+      "name": "CS101 Lab",
+      "begin": "2025-09-12T14:00",
+      "end": "2025-09-12T16:00",
+      "uid": "cs101-lab-001",
+      "description": "Odd weeks only",
+      "location": "WB 105",
+      "status": "CONFIRMED",
+      "recurrence": {
+        "type": "ODD_WEEKS",
+        "days": [
+          "FR"
+        ],
+        "interval": 2,
+        "until": "2025-12-15"
+      },
+      "exceptions": {
+        "exdates": []
+      }
+    },
+    {
+      "name": "MATH200 Lecture",
+      "begin": "2025-09-09T09:00",
+      "end": "2025-09-09T10:15",
+      "uid": "math200-lecture-001",
+      "description": "Biweekly",
+      "location": "H-101",
+      "status": "CONFIRMED",
+      "recurrence": {
+        "type": "ODD_WEEKS",
+        "days": [
+          "TU",
+          "TH"
+        ],
+        "interval": 2,
+        "until": "2025-12-15"
+      },
+      "exceptions": {
+        "exdates": []
+      }
+    },
+    {
+      "name": "HIST150 Tutorial",
+      "begin": "2025-09-10T15:30",
+      "end": "2025-09-10T17:00",
+      "uid": "hist150-tutorial-001",
+      "description": "Every week",
+      "location": "Room 307",
+      "status": "CONFIRMED",
+      "recurrence": {
+        "type": "WEEKLY",
+        "days": [
+          "WE"
+        ],
+        "interval": 1,
+        "until": "2025-12-15"
+      },
+      "exceptions": {
+        "exdates": []
+      }
+    }
+  ],
+  "timezone": "America/Toronto",
+  "filename": "course_schedule"
+}
+```

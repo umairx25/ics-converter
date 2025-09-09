@@ -1,0 +1,4 @@
+.env
+calendars
+__pycache__
+venv
