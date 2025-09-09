@@ -3,4 +3,4 @@ pymupdf==1.26.4
 python-dotenv==1.1.1
 python_dateutil==2.9.0.post0
 streamlit==1.30.0
-google==3.0.0
+google-genai==0.3.0
